@@ -9,5 +9,6 @@ void hello(void)
 
 void hello_arg (const char *arg)
 {
+	// Print the argument
 	printf ("Hello World: %s\n", arg);
 }
