@@ -4,6 +4,7 @@
 
 void hello(void)
 {
+	// No argument
 	printf ("Hello World\n");
 }
 
