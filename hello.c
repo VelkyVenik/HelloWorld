@@ -2,6 +2,8 @@
 
 #include "hello.h"
 
+// Comment that should cause the merge conflict
+
 void hello(void)
 {
 	// No argument
