@@ -1,0 +1,19 @@
+SHELL=C:/Windows/System32/cmd.exe
+CC=clang
+CFLAGS=-Wall -Ic:\MinGW\include\
+LDFLAGS=-lc:\MinGW\lib\
+
+LIBS=hello.o
+ALL=main
+
+
+all: ctags $(ALL) 
+
+main: $(LIBS) main.o
+
+ctags:
+		ctags *.c *.h
+
+clean:
+		rm -f *.o $(ALL) tags
+
