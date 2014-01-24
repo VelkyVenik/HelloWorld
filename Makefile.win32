@@ -1,7 +1,7 @@
 SHELL=C:/Windows/System32/cmd.exe
 CC=clang
 CFLAGS=-Wall -Ic:\MinGW\include\
-LDFLAGS=-lc:\MinGW\lib\
+LDFLAGS=-l
 
 LIBS=hello.o
 ALL=main
